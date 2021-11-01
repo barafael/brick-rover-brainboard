@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name keyestudio-joystick)(type Legacy)(uri ${KIPRJMOD}/keyestudio-joystick.lib)(options "")(descr ""))
+)
