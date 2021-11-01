@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name blackpill)(type Legacy)(uri ${KIPRJMOD}/blackpill.lib)(options "")(descr ""))
+  (lib (name hc12)(type Legacy)(uri ${KIPRJMOD}/hc12.lib)(options "")(descr ""))
+)
