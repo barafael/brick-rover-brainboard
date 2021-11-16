@@ -1,5 +1,4 @@
 (fp_lib_table
-  (lib (name blackpill)(type KiCad)(uri ${KIPRJMOD}/blackpill.pretty)(options "")(descr ""))
   (lib (name hc12-module)(type KiCad)(uri ${KIPRJMOD}/hc12-module.pretty)(options "")(descr ""))
-  (lib (name mounting_hole_m3_padded)(type KiCad)(uri ${KIPRJMOD}/mounting_hole_m3_padded.pretty)(options "")(descr ""))
+  (lib (name blackpill)(type KiCad)(uri /home/rafaelbachmann/rc-brainboard/kicad_libs/usb-c-pill/usb-c-pill.pretty)(options "")(descr ""))
 )

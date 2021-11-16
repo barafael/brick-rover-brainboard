@@ -13,17 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L blackpill:BlackPill-F411 U1
-U 1 1 61808AC9
-P 2700 1800
-F 0 "U1" H 3100 1965 50  0000 C CNN
-F 1 "BlackPill-F411" H 3100 1874 50  0000 C CNN
-F 2 "blackpill:blackpill-f411" H 2700 1800 50  0001 C CNN
-F 3 "" H 2700 1800 50  0001 C CNN
-	1    2700 1800
-	1    0    0    -1  
-$EndComp
 Text GLabel 2400 5000 0    50   Input ~ 0
 3v3
 $Comp
@@ -43,27 +32,23 @@ Text GLabel 2400 5300 0    50   Input ~ 0
 HC12_TX
 Text GLabel 2400 5400 0    50   Input ~ 0
 SET
-Text GLabel 3600 2200 2    50   Input ~ 0
+Text GLabel 3650 2250 2    50   Input ~ 0
 SET
-Text GLabel 3600 2100 2    50   Input ~ 0
+Text GLabel 3650 2150 2    50   Input ~ 0
 3v3
 $Comp
 L power:GND #PWR0102
 U 1 1 6180D8E3
-P 3600 2000
-F 0 "#PWR0102" H 3600 1750 50  0001 C CNN
-F 1 "GND" V 3605 1872 50  0000 R CNN
-F 2 "" H 3600 2000 50  0001 C CNN
-F 3 "" H 3600 2000 50  0001 C CNN
-	1    3600 2000
+P 3650 2050
+F 0 "#PWR0102" H 3650 1800 50  0001 C CNN
+F 1 "GND" V 3655 1922 50  0000 R CNN
+F 2 "" H 3650 2050 50  0001 C CNN
+F 3 "" H 3650 2050 50  0001 C CNN
+	1    3650 2050
 	0    -1   -1   0   
 $EndComp
-Text GLabel 3600 1900 2    50   Input ~ 0
+Text GLabel 3650 1950 2    50   Input ~ 0
 5V
-Text GLabel 3600 3000 2    50   Input ~ 0
-MCU_RX
-Text GLabel 3600 3100 2    50   Input ~ 0
-MCU_TX
 Text GLabel 2700 5800 2    50   Input ~ 0
 HC12_RX
 Text GLabel 2600 5800 0    50   Input ~ 0
@@ -72,56 +57,20 @@ Text GLabel 2700 5900 2    50   Input ~ 0
 HC12_TX
 Text GLabel 2600 5900 0    50   Input ~ 0
 MCU_RX
-Text GLabel 2600 3500 0    50   Input ~ 0
-SERVO0
-Text GLabel 2600 3400 0    50   Input ~ 0
-SERVO1
-Text GLabel 2600 3300 0    50   Input ~ 0
-SERVO2
-Text GLabel 2600 3200 0    50   Input ~ 0
-SERVO3
-Text GLabel 2600 3100 0    50   Input ~ 0
-SERVO4
-Text GLabel 2600 3000 0    50   Input ~ 0
-SERVO5
-Text GLabel 2600 2900 0    50   Input ~ 0
-SERVO6
-Text GLabel 2600 2800 0    50   Input ~ 0
-SERVO7
-Text GLabel 3600 3200 2    50   Input ~ 0
-IN1
-Text GLabel 3600 3300 2    50   Input ~ 0
-IN0
-Text GLabel 3600 2900 2    50   Input ~ 0
-IN2
-Text GLabel 3600 2800 2    50   Input ~ 0
-IN3
-Text GLabel 3600 2700 2    50   Input ~ 0
-IN4
-Text GLabel 3600 2600 2    50   Input ~ 0
-IN5
-Text GLabel 3600 2500 2    50   Input ~ 0
-IN6
-Text GLabel 3600 2400 2    50   Input ~ 0
-IN7
-Text GLabel 2600 2400 0    50   Input ~ 0
-UART1_TX
-Text GLabel 2600 2500 0    50   Input ~ 0
-UART1_RX
-Text GLabel 2600 3800 0    50   Input ~ 0
+Text GLabel 2550 3850 0    50   Input ~ 0
 3v3
 $Comp
 L power:GND #PWR0103
 U 1 1 61824A8D
-P 2600 3700
-F 0 "#PWR0103" H 2600 3450 50  0001 C CNN
-F 1 "GND" V 2605 3572 50  0000 R CNN
-F 2 "" H 2600 3700 50  0001 C CNN
-F 3 "" H 2600 3700 50  0001 C CNN
-	1    2600 3700
+P 2550 3750
+F 0 "#PWR0103" H 2550 3500 50  0001 C CNN
+F 1 "GND" V 2555 3622 50  0000 R CNN
+F 2 "" H 2550 3750 50  0001 C CNN
+F 3 "" H 2550 3750 50  0001 C CNN
+	1    2550 3750
 	0    1    1    0   
 $EndComp
-Text GLabel 2600 3600 0    50   Input ~ 0
+Text GLabel 2550 3650 0    50   Input ~ 0
 5V
 Wire Wire Line
 	2700 5800 2600 5800
@@ -547,10 +496,6 @@ Text Notes 7700 3800 0    50   ~ 0
 Analog Inputs
 Text Notes 1900 4800 0    50   ~ 0
 HC-12 Module
-Wire Notes Line
-	1900 1500 1900 4100
-Wire Notes Line
-	4200 4100 4200 1500
 Text Notes 1900 1500 0    50   ~ 0
 MCU Module
 Wire Notes Line
@@ -584,7 +529,7 @@ U 1 1 619B2B6D
 P 2000 6800
 F 0 "H1" H 2100 6846 50  0000 L CNN
 F 1 "MountingHole" H 2100 6755 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 2000 6800 50  0001 C CNN
+F 2 "munns_kicad_libs:weact-blackpill-nodebug" H 2000 6800 50  0001 C CNN
 F 3 "~" H 2000 6800 50  0001 C CNN
 	1    2000 6800
 	1    0    0    -1  
@@ -679,7 +624,7 @@ Wire Notes Line
 Wire Notes Line
 	7700 1500 10600 1500
 Wire Notes Line
-	4200 4100 1900 4100
+	4200 4350 1900 4350
 Wire Notes Line
 	1900 1500 4200 1500
 Wire Notes Line
@@ -696,4 +641,123 @@ Wire Notes Line
 	4750 2300 4750 1500
 Text Notes 4750 1500 0    50   ~ 0
 Power Supply
+Text GLabel 2550 2450 0    50   Input ~ 0
+UART1_TX
+Text GLabel 2550 2550 0    50   Input ~ 0
+UART1_RX
+Text GLabel 2550 3550 0    50   Input ~ 0
+SERVO0
+Text GLabel 2550 3450 0    50   Input ~ 0
+SERVO1
+Text GLabel 2550 3350 0    50   Input ~ 0
+SERVO2
+Text GLabel 2550 3250 0    50   Input ~ 0
+SERVO3
+Text GLabel 2550 3150 0    50   Input ~ 0
+SERVO4
+Text GLabel 2550 3050 0    50   Input ~ 0
+SERVO5
+Text GLabel 2550 2950 0    50   Input ~ 0
+SERVO6
+Text GLabel 2550 2850 0    50   Input ~ 0
+SERVO7
+Text GLabel 3650 3050 2    50   Input ~ 0
+MCU_RX
+Text GLabel 3650 3150 2    50   Input ~ 0
+MCU_TX
+Text GLabel 3650 3250 2    50   Input ~ 0
+IN1
+Text GLabel 3650 3350 2    50   Input ~ 0
+IN0
+Text GLabel 3650 2950 2    50   Input ~ 0
+IN2
+Text GLabel 3650 2850 2    50   Input ~ 0
+IN3
+Text GLabel 3650 2750 2    50   Input ~ 0
+IN4
+Text GLabel 3650 2650 2    50   Input ~ 0
+IN5
+Text GLabel 3650 2550 2    50   Input ~ 0
+IN6
+Text GLabel 3650 2450 2    50   Input ~ 0
+IN7
+NoConn ~ 3200 5000
+$Comp
+L power:GND #PWR0122
+U 1 1 61988450
+P 3250 4000
+F 0 "#PWR0122" H 3250 3750 50  0001 C CNN
+F 1 "GND" V 3255 3872 50  0000 R CNN
+F 2 "" H 3250 4000 50  0001 C CNN
+F 3 "" H 3250 4000 50  0001 C CNN
+	1    3250 4000
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	4200 4350 4200 1500
+Wire Notes Line
+	1900 4350 1900 1500
+NoConn ~ 2550 1950
+NoConn ~ 2550 2050
+NoConn ~ 2550 2150
+NoConn ~ 2550 2250
+NoConn ~ 2550 2350
+NoConn ~ 2550 2650
+NoConn ~ 2550 2750
+NoConn ~ 3650 2350
+NoConn ~ 3650 3450
+NoConn ~ 3650 3550
+NoConn ~ 3650 3650
+NoConn ~ 3650 3750
+NoConn ~ 3650 3850
+NoConn ~ 3150 4000
+NoConn ~ 3050 4000
+NoConn ~ 2950 4000
+$Comp
+L power:GND #PWR0123
+U 1 1 61952726
+P 5950 3400
+F 0 "#PWR0123" H 5950 3150 50  0001 C CNN
+F 1 "GND" V 5955 3272 50  0000 R CNN
+F 2 "" H 5950 3400 50  0001 C CNN
+F 3 "" H 5950 3400 50  0001 C CNN
+	1    5950 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J18
+U 1 1 61958E20
+P 6150 3500
+F 0 "J18" H 6230 3542 50  0000 L CNN
+F 1 "Conn_01x03" H 6230 3451 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 6150 3500 50  0001 C CNN
+F 3 "~" H 6150 3500 50  0001 C CNN
+	1    6150 3500
+	1    0    0    -1  
+$EndComp
+Text GLabel 5950 3500 0    50   Input ~ 0
+UART1_TX
+Text GLabel 5950 3600 0    50   Input ~ 0
+UART1_RX
+Wire Notes Line
+	4750 3100 7150 3100
+Wire Notes Line
+	7150 3100 7150 3900
+Wire Notes Line
+	7150 3900 4750 3900
+Wire Notes Line
+	4750 3900 4750 3100
+Text Notes 4750 3100 0    50   ~ 0
+println dbg <3
+$Comp
+L blackpill:weact-black-pill U1
+U 1 1 61941B32
+P 3100 1850
+F 0 "U1" H 3100 2115 50  0000 C CNN
+F 1 "weact-black-pill" H 3100 2024 50  0000 C CNN
+F 2 "blackpill:weact-blackpill" H 3100 2000 50  0001 C CNN
+F 3 "" H 3100 2000 50  0001 C CNN
+	1    3100 1850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
